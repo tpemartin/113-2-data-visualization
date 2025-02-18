@@ -10,7 +10,9 @@
 We will use Google classroom to manage the course materials and assignments. You will find materials:
 
 1. Join the classroom at
-[<img src="../img/google-classroom-join-link.png" width="400"/>](https://classroom.google.com/c/Njg4NjgzMjEyOTI4?cjc=x4agkkd)
+[<img src="../img/google-classroom-join-link.png" width="400px"/>](https://classroom.google.com/c/Njg4NjgzMjEyOTI4?cjc=x4agkkd)
+
+> class code: x4agkkd
 
 2. fill up [修課表單](https://classroom.google.com/c/Njg4NjgzMjEyOTI4/m/NzM4MDgzMTcwNjg0/details)
 
