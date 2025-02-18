@@ -14,7 +14,7 @@ We will use Google classroom to manage the course materials and assignments. You
 
 > class code: x4agkkd
 
-2. fill up [修課表單](https://classroom.google.com/c/Njg4NjgzMjEyOTI4/m/NzM4MDgzMTcwNjg0/details)
+2. fill up [修課表單](https://docs.google.com/forms/d/e/1FAIpQLSeHqXZcegNcYUZO_vjxm8a5MDm__I6EZSeGt-sXzCcgiHGokQ/viewform)
 
 ## R cloud computation setup
 
