@@ -47,6 +47,10 @@ Go to the file you want copilot to be aware of.
 
 ![](../img/2025-02-25-11-46-45.png)
 
+### Code line mode
+  
+![](../img/2025-02-25-10-24-02.png)
+
 ### Immerse mode
 
 ![](../img/2025-02-25-11-52-55.png)
@@ -65,5 +69,3 @@ When ask AI to explain code, you should design a preset to help AI to understand
 
   - If there is an error message, copy and paste it back to the AI.  
   - If the result is not what you expected, ask AI to explain the code that generate the result.
-  
-![](../img/2025-02-25-10-24-02.png)
