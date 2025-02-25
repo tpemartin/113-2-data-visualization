@@ -47,24 +47,23 @@ Go to the file you want copilot to be aware of.
 
 ![](../img/2025-02-25-11-46-45.png)
 
+### Immerse mode
+
+![](../img/2025-02-25-11-52-55.png)
+
 ### AI preset for code generation
 
+#### tidyverse preset
 
+<https://github.com/tpemartin/113-2-data-visualization/blob/main/AI-preset/preset-tidyverse.md>
 
-## AI preset for explanation
+#### explanation preset
 
-<https://github.com/tpemartin/113-2-data-visualization/blob/7f36838f727a2a3488336f34f0feaf1cb5e955dc/Lecture-notes/AI.md?plain=1#L1>
+When ask AI to explain code, you should design a preset to help AI to understand your background and your goal of learning.
 
-## copilot chat
+### Debug trick
 
-
-<https://github.com/copilot/share/0a181116-03c4-8c84-b841-aa01206f0867>
-
-![](../img/2025-02-25-09-25-46.png)
-
-## Debug
-
-  - If there is an error message, feed it back to the AI.  
+  - If there is an error message, copy and paste it back to the AI.  
   - If the result is not what you expected, ask AI to explain the code that generate the result.
   
 ![](../img/2025-02-25-10-24-02.png)
