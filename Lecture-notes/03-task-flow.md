@@ -21,6 +21,7 @@ if (!requireNamespace("sysfonts", quietly = TRUE)) {
   install.packages("sysfonts")
 }
 
+library(tidyverse)
 library(showtext)
 library(sysfonts)
 
