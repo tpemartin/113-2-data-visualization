@@ -87,16 +87,16 @@ Token is a password that has limited access to your account.
   - Click on "Personal access tokens".
   - Click on "Fine-grain access token"
 
-![](../img/2025-02-25-10-52-58.png)
+<img src="../img/2025-02-25-10-52-58.png" width="300px">
 
 ***
 
 Make sure you select only the repo you want the token to access.
-![](../img/2025-02-25-10-08-56.png)
+<img src="../img/2025-02-25-10-08-56.png" width="600px">
 
 *** 
 Make sure set up the token permissions correctly.
-![](../img/2025-02-25-10-12-57.png)
+<img src="../img/2025-02-25-10-12-57.png" width="600px">
 
 
 ### 3. Save the token in POSIT
