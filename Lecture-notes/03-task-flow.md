@@ -1,10 +1,17 @@
 # Environment setup
 
-## tidyverse 
+  - Proper packages for data analysis and plotting (see section [Packages tidyverse](#packages-tidyverse))
+  - Chinese characters support (see section [Chinese characters support](#chinese-characters-support))  
+  - .Rprofile (see section [.Rprofile](#.Rprofile))
+
+## Packages tidyverse
 
 **tidyverse** is a collection of R packages designed for data science. It includes packages like `ggplot2`, `dplyr`, `tidyr`, `readr`, etc. 
 
-## Chinese characters
+## Chinese characters support
+
+<details>
+<summary>Show code</summary>
 
 ```
 if (!requireNamespace("showtext", quietly = TRUE)) {
@@ -27,8 +34,63 @@ theme_set(
   theme_classic()
 )
 ```
+</details>
+
+## .Rprofile
+
+It is a file at the root of your **project directory** that R will automatically run when it starts up. You can use it to set up your R environment, load packages, set options, etc. You should put this file in the root of your project directory.
+
+<details>
+<summary>Show code</summary>
+
+```r
+# load proper packages
+library(tidyverse)
+library(showtext)
+library(sysfonts)
+
+sysfonts::font_add_google('Noto Sans TC')
+showtext_auto()
+
+theme_set(
+  theme(
+    text = element_text(family = "Noto Sans TC")
+  ) + 
+  theme_classic()
+)
+```
+</details>
+
+# Playground
+
+  - play with AI and data
+  - collect students' collective wisdom afterward to design a workable flowchart
 
 # Talk with Data
+
+  1. Fimiliarize with the data
+    - What are the variables?  
+  2. Story exporation:
+    - If you have ideads, ask AI to produce you the result.
+    - If not, ask AI what story can be told from the data? 
+  3. Refine data presentation. (does it highlight the story? can it be improved?)
+     1. You can tell AI the part you are not happy with.  
+  4. If you find more stories to probe into, go back to step 2.
+   
+  ```mermaid
+  flowchart TD
+    A[熟悉數據] --> B[探索故事]
+    B --> C[生成結果]
+    C --> D[優化數據展示]
+    D --> E[反饋AI]
+    E --> B
+  ```
+
+# Pick up the wisdom
+
+We want to enhance our data visualization skills by learning from the collective wisdom of the students. Once you achieve the final result, it is wise to ask the AI to highlight what you should pay attention to from the workflow. 
+
+> Tell AI your background and your goal of learning. 
 
 ## Github Copilot
 
@@ -94,6 +156,9 @@ $ `2022`     <dbl> 354219, 78318, 52725, 165895, 7556, 133203
 
 ### Program
 
+<details>
+<summary>Show code</summary>
+
 ```{r}
 library(tidyverse)
 
@@ -128,12 +193,20 @@ ggplot(總人數_by_country, aes(x = 年度, y = 總人數, color = 首站抵達
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  # 調整 x 軸標籤角度
 ```
+</details>
 
 > It is always good to check the data used in `ggplot` to make sure it is in the format you expect.
+
+<details>
+<summary>Show code</summary>
 
 ```{r}
 glimpse(總人數_by_country)
 ```
+</details>
+
+<details>
+<summary>Show code</summary>
 
 ```{r}
 # 確保年度是數值型
@@ -148,6 +221,7 @@ ggplot(總人數_by_country, aes(x = 年度, y = 總人數, color = 首站抵達
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  # 調整 x 軸標籤角度
 ```
+</details>
 
 ```diff
 - x軸不是連續的年份，而是字符型，則點不會連成線。
@@ -158,6 +232,9 @@ ggplot(總人數_by_country, aes(x = 年度, y = 總人數, color = 首站抵達
 ## Modify theme
 
 You can upload an image whose design attracts you and ask for a similar theme in your graph.
+
+<details>
+<summary>Show code</summary>
 
 ```{r}
 g <- 
@@ -172,6 +249,7 @@ ggplot(總人數_by_country, aes(x = 年度, y = 總人數, color = 首站抵達
 
 g + new theme...
 ```
+</details>
 
 
 ## Exercise
