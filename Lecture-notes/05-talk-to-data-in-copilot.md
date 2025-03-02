@@ -18,7 +18,8 @@ Key components:
 ### Upload to ChatGPT
 
 
-| <img src="../img/2025-03-03-04-55-22.png" alt="Image 1" /> | <img src="../img/2025-03-03-04-57-19.png" alt="Image 2" /> |
+| <img src="../img/2025-03-03-04-55-22.png" alt="Image 1" /> | <img src="../img/2025-03-03-05-02-34.png" alt="Image 2" /> |
 |------------------------------------------------------------|------------------------------------------------------------|
+
 
 Create an AI prompt for Copilot in the file mode.
