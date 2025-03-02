@@ -1,11 +1,11 @@
-# Preliminary Data Exploration
+# Data Analysis Environment
 
-  - Setup data analysis environment in POSIT
+  - POSIT project configuration
   - Upload data to POSIT  
   - Pull/Push files from/to Github in POSIT  
   - Use Github Copilot to explore data and generate code  
 
-## Data Analysis Environment
+## POSIT project configuration
 
 Add the following code to your `.Rprofile` file:
 
