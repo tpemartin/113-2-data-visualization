@@ -30,16 +30,6 @@ Create New Project from Github Project in POSIT
 Setup POSIT-Github integration
 
 
-
-```mermaid
-flowchart TD
-    A[""`Create Github Project
-     (public repo)`""] --> B[""`Create New Project from 
-     Github Project in POSIT`""]
-    B --> C[""`Setup POSIT-Github
-     integration`""]
-```
-
 ## Create Github Project
 
 ![](../img/2025-02-25-10-45-21.png)
