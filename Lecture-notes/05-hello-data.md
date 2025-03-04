@@ -12,9 +12,10 @@ Let AI see your data and introduce it to you.
   - Upload to ChatGPT  
   - Upload to Github
 
-
+| ChatGPT | Github |
+|---------|--------|
 | <img src="../img/2025-03-03-04-55-22.png" alt="Image 1" /> | <img src="../img/2025-03-03-05-02-34.png" alt="Image 2" /> |
-|------------------------------------------------------------|------------------------------------------------------------|
+| | ![](../img/2025-03-04-11-05-41.png)|
 
 ## Preliminary Data Tidy Process
 
