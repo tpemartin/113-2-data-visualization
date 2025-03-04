@@ -46,6 +46,8 @@ Sometimes **reshape** you data will make further exploration easier.
 
 A codebook is a document that describes the contents, structure, and layout of a data collection. It contains the information of the key components of the dataset.
 
+> We will ask AI to generate a codebook in Markdown syntax. Refer to [07-markdown.md](../Lecture-notes/07-markdown.md) for more information.
+
 ### Data Parsing and Summary
 
 Use codebook as a reference to parse data.
