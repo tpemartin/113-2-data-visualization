@@ -1,4 +1,4 @@
-# Talk to Data via AI
+# Hello, Data! 
 
 Let AI see your data and introduce it to you.
 
