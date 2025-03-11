@@ -30,6 +30,10 @@ Here are some summaries you might be interested in performing on the `reshaped_t
 
 <https://github.com/tpemartin/113-2-econDV-demo/blob/c1a305a53d95a42d9ceaf57f328643d6c57b9487/travel-destination/reshape/reshaped_travel_data/parsing_summary/summary_table.R#L1-L10>
 
+### Markdown table
+
+You can always convert R data frame to markdown table.
+
 ## Table in Looker Studio
 
   [Connecting data in Looker Studio](lookerstudio-connect-data.md)
