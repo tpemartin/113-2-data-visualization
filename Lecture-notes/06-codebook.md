@@ -36,3 +36,19 @@ Review codebook (especially variable classes) before importing the data.
 
 ## Parsing data
 
+When variable classes are correct as in codebook, you can aske AI for the code to parse the data accordingly. 
+
+> I use R program and follow tidyverse style, and the R for data science book (https://r4ds.had.co.nz/) closely. The data is imported as `reshape_travel_data`. How to parse variables accordingly
+
+
+## Summary
+
+  - different classes of variables require different ways of summarization.
+
+If you use the same chat that contains the information of variables, you can ask AI to summarize as:  
+
+> For each variable, suggest me how to summarize to each variable's features.
+
+## Final codebook
+
+[Codebook for reshaped travel data](https://github.com/tpemartin/113-2-econDV-demo/blob/main/travel-destination/reshape/reshaped_travel_data/codebook-reshaped_travel_data.md)
