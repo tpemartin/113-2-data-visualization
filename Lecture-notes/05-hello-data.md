@@ -41,7 +41,7 @@ Key components:
 
 ### Reshape data
 
-Sometimes **reshape** you data will make further exploration easier.
+Sometimes **reshape** your data will make further exploration easier.
 
 ### Generate codebook
 
