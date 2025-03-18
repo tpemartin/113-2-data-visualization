@@ -19,16 +19,19 @@ Let AI see your data and introduce it to you.
 
 ## Preliminary Data Tidy Process
 
+
 ```mermaid
 graph TD
     A["`Data introduction`"] --> B{"`Will reshaping data help?`"}
     B -->|Yes| C["`Reshape data.`"]
     B -->|No| D["`Generate codebook`"]
+    style A fill:#ffcccc
+    D --> G["`Review codebook`"]
     C --> D
-    D --> F[""`Data parsing and 
-    summary based on 
-    codebook`""]
+    G --> F[""`Data parsing`""]
+    F --> H["`Data summary table`"]
 ```
+
 
 [歷年中華民國國民出國目的地人數統計](https://data.gov.tw/dataset/7325)
 

@@ -16,9 +16,8 @@ graph TD
     style D fill:#ffcccc
     D --> G["`Review codebook`"]
     C --> D
-    G --> F[""`Data parsing and 
-    summary based on 
-    codebook`""]
+    G --> F[""`Data parsing`""]
+    F --> H["`Data summary table`"]
 ```
 
 [歷年中華民國國民出國目的地人數統計 reshaped](https://github.com/tpemartin/113-2-econDV-demo/blob/main/travel-destination/reshape/reshaped_travel_data/reshaped_travel_data.csv)
@@ -51,4 +50,4 @@ If you use the same chat that contains the information of variables, you can ask
 
 ## Final codebook
 
-[Codebook for reshaped travel data](https://github.com/tpemartin/113-2-econDV-demo/blob/main/travel-destination/reshape/reshaped_travel_data/codebook-reshaped_travel_data.md)
+[Codebook for reshaped travel data](https://github.com/tpemartin/113-2-econDV-demo/blob/main/data/travel-destination/reshape/reshaped_travel_data/codebook-reshaped_travel_data.md)
