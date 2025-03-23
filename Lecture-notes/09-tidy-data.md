@@ -39,7 +39,11 @@ flowchart TD
 
 ## Data summary
 
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/c0b8fea5-3335-4713-8b01-ed45cbf8f392/page/ixdCF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+> slide: 製作如下的儀表板，並把連結貼上來。
+> 
+<img src="../img/2025-03-23-13-31-56.png" width="500px"/>
+
+
 
 
 ## Clean up variables
@@ -58,15 +62,15 @@ https://github.com/tpemartin/113-2-econDV-demo/blob/881077f558613c4ceecfceef797b
 
 
 
-> slide:   寫下你的prompt, 能夠完成資料移除任務，並存成csv檔案。
+> slide:   寫下你的prompt, 能夠完成資料移除任務，並存成csv檔案且上傳更新到Google Sheets。
+
 
 
 ## Upload data to Google Sheets (again)
 
-  - after clean up
+  - Google Sheets更新後，與之連結的Looker Studio的資料也會更新(內訂15分鐘更新一次)；或
 
+<img src="../img/2025-03-23-13-36-21.png" width="300px"/>
 
-
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/ecd2cf06-3ada-4aeb-876f-915ddc0a8d43/page/PcYEF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 
