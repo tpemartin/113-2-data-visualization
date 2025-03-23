@@ -23,3 +23,15 @@ Make a copy of the following dashboard:
 
   - **group by**: dimensions  
   - **summarise**: metrics
+
+### Summary table to Google sheets
+
+  - A data frame in R can always be exported to a Google sheets.  
+  - Google sheets is easy for table editing and sharing.  
+    - [Generate Markdown Table extension](https://workspace.google.com/marketplace/app/generatemarkdowntable/23306117760)
+
+
+<img src="../img/2025-03-21-14-57-05.png" width="500px"/>
+
+  - Spreadsheet link/shared link  
+  - Sheet
