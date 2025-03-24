@@ -18,7 +18,7 @@ flowchart TD
   E --> F{"Anomaly?"}
   F -- Yes --> G["Clean up Data"]
   G --> A
-  F -- No --> H["Data inventory take"]
+  F -- No --> H["Data inventory taking "]
 
   class F pink;
 ```
@@ -39,11 +39,9 @@ flowchart TD
 
 ## Data summary
 
-> slide: 製作如下的儀表板，並把連結貼上來。
+> slide: 製作如下的儀表板左側表格，並把連結貼上來。
 > 
 <img src="../img/2025-03-23-13-31-56.png" width="500px"/>
-
-
 
 
 ## Clean up variables
@@ -62,7 +60,7 @@ https://github.com/tpemartin/113-2-econDV-demo/blob/881077f558613c4ceecfceef797b
 
 
 
-> slide:   寫下你的prompt, 能夠完成資料移除任務，並存成csv檔案且上傳更新到Google Sheets。
+> slide: 寫下你的prompt, 任務是得到程式能夠完成以下任務：資料移除任務，並存成csv檔案且上傳更新到Google Sheets。
 
 
 
@@ -74,3 +72,10 @@ https://github.com/tpemartin/113-2-econDV-demo/blob/881077f558613c4ceecfceef797b
 
 
 
+## Data inventory taking
+
+  - 最終版的分析資料
+  - 資料codebook  
+  - 其他資料相關訊息
+
+<https://classroom.google.com/c/Njg4NjgzMjEyOTI4/m/NzU5NzE4NDA5MzAw/details>
