@@ -27,9 +27,14 @@ flowchart TD
 
 ## Upload Data to Google Sheets
 
+先開一個Google sheets。
+
 <img src="../img/2025-03-23-11-02-09.png" width="500px"/>
 
   - Upload `reshaped_travel_data.csv` to Google Sheets as `reshaped_travel_data` sheet.
+
+> slido: 請貼上可以把`reshaped_travel_data`由R上傳到Google Sheets的程式碼。
+
 
 ## Connect data to Looker Studio
 
@@ -39,7 +44,7 @@ flowchart TD
 
 ## Data summary
 
-> slide: 製作如下的儀表板左側表格，並把連結貼上來。
+> slide: 製作如下的儀表板左側表格，並把連結貼上來。[How to create a shared link in Looker Studio](lookerstudio-shared-link.md)
 > 
 <img src="../img/2025-03-23-13-31-56.png" width="500px"/>
 
