@@ -18,7 +18,7 @@ Make a copy of the following dashboard:
 
 <img src="../img/Metric-calculation.png" width="500px">
 
-> slido: 把能呈現不同首站抵達地的旅客人數佔比的表格metric設定截圖貼上來。
+> slido: 把能呈現不同首站抵達地的旅客人數佔比的表格metric設定貼上來(dimension? metric? metric aggregation? comparison computation? etc.)
 
 ### Dimension and Metrics in R
 
@@ -27,6 +27,7 @@ Make a copy of the following dashboard:
 
 > 你可以把Looker Studio的設定，當成prompt predicate 的context來請求R程式碼。
 
+> slido: 如何下prompt得到可以呈現不同首站抵達地的旅客人數佔比的表格。
 
 ### Summary table to Google sheets
 

@@ -44,8 +44,6 @@ flowchart TD
 
 ## Data summary
 
-> slide: 製作如下的儀表板左側表格，並把連結貼上來。[How to create a shared link in Looker Studio](lookerstudio-shared-link.md)
-> 
 <img src="../img/2025-03-23-13-31-56.png" width="500px"/>
 
 
@@ -65,7 +63,7 @@ https://github.com/tpemartin/113-2-econDV-demo/blob/881077f558613c4ceecfceef797b
 
 
 
-> slide: 寫下你的prompt, 任務是得到程式能夠完成以下任務：資料移除任務，並存成csv檔案且上傳更新到Google Sheets。
+> slide: 寫下你的prompt, 任務是得到能夠完成以下任務的程式：資料移除任務，並存成csv檔案同時上傳更新到Google Sheets。
 
 
 
