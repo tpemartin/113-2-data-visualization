@@ -25,9 +25,20 @@ Make a copy of the following dashboard:
   - **group by**: dimensions  
   - **summarise**: metrics
 
-> 你可以把Looker Studio的設定，當成prompt predicate 的context來請求R程式碼。
+## Harness both tools
 
-> slido: 如何下prompt得到可以呈現不同首站抵達地的旅客人數佔比的表格。
+### Looker Studio to R
+
+> 你可以把Looker Studio的設定，當成prompt predicate 的context來請求R程式碼。 
+
+> slido: 如何下prompt得到可以呈現不同首站抵達地的旅客人數佔比的表格之R程式。
+>
+
+### R to Looker Studio
+
+<https://github.com/tpemartin/113-2-econDV-demo/blob/9d041e4e8cdb3bc7b1f63bfeed435b8240b848eb/travel-destination/reshape/reshaped_travel_data/parsing_summary/travel_summary.R#L18-L31>
+
+> slido: 問AI如何在Google Looker Studio得到相同的表
 
 ### Summary table to Google sheets
 
@@ -40,3 +51,13 @@ Make a copy of the following dashboard:
 
   - Spreadsheet link/shared link  
   - Sheet
+
+```R
+# import googlesheets4 library
+library(googlesheets4)
+
+# write data frame to Google Sheets
+write_sheet(data, ss = "google-sheets-url", sheet = "sheet-name")
+```
+
+
