@@ -36,7 +36,7 @@ Make a copy of the following dashboard:
 
 ### R to Looker Studio
 
-<https://github.com/tpemartin/113-2-econDV-demo/blob/9d041e4e8cdb3bc7b1f63bfeed435b8240b848eb/travel-destination/reshape/reshaped_travel_data/parsing_summary/travel_summary.R#L18-L31>
+https://github.com/tpemartin/113-2-econDV-demo/blob/9d041e4e8cdb3bc7b1f63bfeed435b8240b848eb/travel-destination/reshape/reshaped_travel_data/parsing_summary/travel_summary.R#L18-L31
 
 > slido: 問AI如何在Google Looker Studio得到相同的表
 
