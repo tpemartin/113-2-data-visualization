@@ -23,13 +23,14 @@ Use `group_by` and `summarise` to create summary tables.
 
 > Generate a report in paragraphs as data introduction section of an Economic journal article
 
-![](../img/2025-04-08-11-03-00.png)
+<img src="../img/2025-04-08-11-03-00.png" width="500px"/>
+
 
 ***
 
 You can attach more files to enrich the data introduction report.
 
-![](../img/2025-04-08-11-05-44.png)
+<img src="../img/2025-04-08-11-05-44.png" width="500px"/>
 
 ***
 
