@@ -33,12 +33,30 @@ flowchart TD
 
   - Upload `reshaped_travel_data.csv` to Google Sheets as `reshaped_travel_data` sheet.
 
-> slido: 請貼上可以把`reshaped_travel_data`由R上傳到Google Sheets的程式碼。
+```R
+# import reshaped_travel_data
+reshaped_travel_data <- 
+  read_csv("travel-destination/reshape/reshaped_travel_data/reshaped_travel_data.csv")
+
+# upload to gsheets
+library(googlesheets4)
+gslink <- "https://docs.google.com/spreadsheets/d/1tceOB6JbwhQuYXAy6mtwszHabGE6BUG7rxiHa_5Y_6c/edit?pli=1&gid=941407499#gid=941407499"
+
+write_sheet(
+  reshaped_travel_data,
+  ss=gslink,
+  sheet="reshaped travel data"
+)
+```
+
+> slido: 請適度的更動上面程式碼，讓它能夠上傳到你自己的Google Sheets中，並把Google Sheets的連結（設公開）貼上來。
 
 
 ## Connect data to Looker Studio
 
   - [Connecting data in Looker Studio](lookerstudio-connect-data.md)
+
+> slido: 請貼上與你Google Sheets reshaped travel data連動的Looker Studio shared link。
 
 ## Parsing data
 
@@ -63,8 +81,7 @@ https://github.com/tpemartin/113-2-econDV-demo/blob/881077f558613c4ceecfceef797b
 
 
 
-> slide: 寫下你的prompt, 任務是得到能夠完成以下任務的程式：資料移除任務，並存成csv檔案同時上傳更新到Google Sheets。
-
+> slide: 寫下你的prompt, 任務是得到能夠完成以下任務的程式：資料移除任務，並上傳更新到Google Sheets。
 
 
 ## Upload data to Google Sheets (again)
