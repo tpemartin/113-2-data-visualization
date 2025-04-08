@@ -31,7 +31,7 @@ flowchart TD
 
 <img src="../img/2025-03-23-11-02-09.png" width="500px"/>
 
-  - Upload `reshaped_travel_data.csv` to Google Sheets as `reshaped_travel_data` sheet.
+  - Upload `reshaped_travel_data.csv` to Google Sheets as `reshaped travel data` sheet.
 
 ```R
 # import reshaped_travel_data
