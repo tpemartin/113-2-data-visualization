@@ -13,50 +13,35 @@ If AI knows **the data variable structure** (codebook), it can help/suggest us t
 
 If AI can **read the summary statistics**, it can help us to generate a summary report.
 
-### Flowchart
-
-```mermaid
-flowchart TB
-  subgraph step1
-  A["Start with data file (CSV)"]--- B[["Generate codebook"]]
-  B --> C@{ shape: doc, label: "codebook.md" }
-  end
-  subgraph step2
-  D["Summarise data"]--- E[["Generate summary JSON file"]]
-  E --> F@{ shape: docs, label: "Multiple json files"}
-  end
-  A-->D
-```
+## Flowchart
 
 ```mermaid
 flowchart TB
   A["Start with data file (CSV)"]
   B[["AI: Generate codebook"]]
   C@{ shape: doc, label: "codebook.md" }
-  D["Summarise data"]
+  D["R: Summarise data"]
   E[["R: Generate summary JSON file"]]
   F@{ shape: docs, label: "Multiple json files"}
   subgraph step1[Prepare codebook]
     A --- B
     B --> C
   end
-  subgraph step2[Prepare summaries]
+  subgraph step2[Prepare summary files]
     D --- E
     E --> F
   end
   
   C --> D
-  C --> G[["Generate summary report"]]
+  C --> G[["AI: Generate data summary report"]]
   F --> G
   G --> H@{ shape: doc, label: "summary-report.md" }
     
 ```
 
+> :exclamation: When ask AI always use upstream documents as part of predicate context/input of data.
 
-
-## Summary report with AI
-
-### Information structure
+## Example file structure
 
 Consider the following file structure:
 
@@ -73,19 +58,9 @@ Consider the following file structure:
 
 > We are going to ask AI to generate a data report based on that text files. (why text?)
 
-## Formulate predicates
-
-  - Instruction  
-  - Context/Input data: codebook and other text information  
-  - Output: Markdown table or JSON (for complex infromation structure)
-
-> :exclamation: Output in text format can be reused as AI predicate context or input of data later
-
-
-
 ## JSON output
 
-The output should be a stringfy JSON object as the following:
+Any summary information should be formulated as the following JSON format, and save it as a "{short-title-of-summary}.json" file.
 
 ```json
 {
@@ -94,9 +69,14 @@ The output should be a stringfy JSON object as the following:
 }
 ```
 
-> Can use it as a context, and setup at the very beginning of a AI chat
->
-> Saved under /summaries as a .json file
+## Formulate predicates
+
+  - Instruction  
+  - Context/Input data: codebook and other text information  
+  - Output: Markdown table or JSON (for complex infromation structure)
+
+> :exclamation: Output in text format can be reused as AI predicate context or input of data later
+
 
 ## Work with AI 
 
