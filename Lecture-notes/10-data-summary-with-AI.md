@@ -31,11 +31,14 @@ flowchart TB
     D --- E
     E --> F
   end
+  subgraph step3[Generate summary report]
+    G --> H
+  end
   
   C --> D
   C --> G[["AI: Generate data summary report"]]
   F --> G
-  G --> H@{ shape: doc, label: "summary-report.md" }
+  H@{ shape: doc, label: "summary-report.md" }
     
 ```
 
