@@ -46,11 +46,11 @@ flowchart TB
 
 ## Example
 
-[Appendix: Data Summary Prompts Example](/Lecture-notes/Appendix-data-summary-complete-prompt-example.md)
+[Appendix: Data Summary Prompts Example](Appendix-data-summary-complete-prompt-example.md)
 
   - ChatGPT: <https://chatgpt.com/share/67fdc1bd-c254-8006-a36f-8e31a1e660c8>
 
-File structure under [`datasets/travel-destination/`](datasets/travel-destination/):
+File structure under [`datasets/travel-destination/`](../datasets/travel-destination/):
 
 ```
 datasets/travel-destination/
