@@ -6,7 +6,7 @@ The following tasks are based on a data frame {data frame name} whose dataset in
 
 ## Output format
 
-Each results should be save in either a list or data frame and formatted as a JSON object and saved in a file named "{short-title-of-summary}.json". 
+In the following tasks, each result should be save in either a list or data frame and formatted as a JSON object and saved in a file named "{short-title-of-summary}.json". If there are multiple results, they should be prepared separately.
 
 ```json
 {
@@ -16,5 +16,4 @@ Each results should be save in either a list or data frame and formatted as a JS
 }
 ```
 
-## Single variable summary rule
 

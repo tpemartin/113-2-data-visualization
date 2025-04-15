@@ -1,0 +1,26 @@
+{
+  "description": "Top 5 destinations by average number of travelers across all years.",
+  "operations": "filter(!is.na()), group_by(細分), summarise(mean), arrange(desc), slice_head(n = 5)",
+  "summary": [
+    {
+      "細分": "日本Japan",
+      "avg_travelers": 2680058.7059
+    },
+    {
+      "細分": "中國大陸China",
+      "avg_travelers": 2407587.5294
+    },
+    {
+      "細分": "香港Hong Kong",
+      "avg_travelers": 1581353.9412
+    },
+    {
+      "細分": "韓國Korea",
+      "avg_travelers": 610981.7647
+    },
+    {
+      "細分": "澳門Macao",
+      "avg_travelers": 482979.3529
+    }
+  ]
+}

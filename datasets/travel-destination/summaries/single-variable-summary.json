@@ -1,0 +1,95 @@
+{
+  "description": "Summarises each variable in `reshaped_travel_data` based on their class, including missing values.",
+  "operations": "summarise(across()), class(), mean(), median(), sd(), min(), max(), table(), is.na(), n_distinct()",
+  "summary": [
+    {
+      "variable": "summary_首站抵達地",
+      "class": "factor",
+      "levels": [
+        {
+          "亞洲地區": 391,
+          "大洋洲地區": 92,
+          "歐洲地區": 184,
+          "美洲地區": 69,
+          "非洲地區": 46
+        }
+      ],
+      "na_count": 0,
+      "na_proportion": 0
+    },
+    {
+      "variable": "summary_細分",
+      "class": "factor",
+      "levels": [
+        {
+          "中國大陸China": 23,
+          "亞洲其他地區 Others": 23,
+          "加拿大Canada": 23,
+          "南非S. Africa": 23,
+          "印尼Indonesia": 23,
+          "土耳其Turkey": 23,
+          "大洋洲其他地區 Others": 23,
+          "奧地利Austria": 23,
+          "帛琉Palau": 23,
+          "德國Germany": 23,
+          "新加坡Singapore": 23,
+          "日本Japan": 23,
+          "柬埔寨Cambodia": 23,
+          "歐洲其他地區 Total": 23,
+          "汶萊Brunei": 23,
+          "法國France": 23,
+          "泰國Thailand": 23,
+          "澳洲Australia": 23,
+          "澳門Macao": 23,
+          "瑞士Switzerland": 23,
+          "紐西蘭New Zealand": 23,
+          "緬甸Myanmar": 23,
+          "美國USA": 23,
+          "美洲其他地區 Others": 23,
+          "義大利Italy": 23,
+          "英國U.K.": 23,
+          "荷蘭Netherlands": 23,
+          "菲律賓Philippines": 23,
+          "越南Vietnam": 23,
+          "阿拉伯聯合大公國UAE": 23,
+          "非洲其他地區 Others": 23,
+          "韓國Korea": 23,
+          "香港Hong Kong": 23,
+          "馬來西亞Malaysia": 23
+        }
+      ],
+      "na_count": 0,
+      "na_proportion": 0
+    },
+    {
+      "variable": "summary_Year",
+      "class": "integer",
+      "levels": [
+        {}
+      ],
+      "na_count": 0,
+      "na_proportion": 0,
+      "mean": 2013,
+      "median": 2013,
+      "sd": 6.6375,
+      "min": 2002,
+      "max": 2024,
+      "range": 22
+    },
+    {
+      "variable": "summary_Number_of_Travelers",
+      "class": "numeric",
+      "levels": [
+        {}
+      ],
+      "na_count": 165,
+      "na_proportion": 0.211,
+      "mean": 288267.7715,
+      "median": 33000,
+      "sd": 747758.5439,
+      "min": 0,
+      "max": 6006116,
+      "range": 6006116
+    }
+  ]
+}
