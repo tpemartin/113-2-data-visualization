@@ -1,13 +1,8 @@
 # Enhance Story with Graphs
 
-Look at data summary report, hightlight the key points, re-phrase the story based on key points. 
-
-## Starting documents
-
-  - <https://github.com/tpemartin/113-2-data-visualization/blob/7d2f3e1e7f87ea32e04a671ae912d03b1a4b4e15/datasets/travel-destination/>
-
-
 ## Choose highlight 
+
+Choose the highlight points from the data summary report.
 
   - <https://github.com/tpemartin/113-2-data-visualization/blob/7d2f3e1e7f87ea32e04a671ae912d03b1a4b4e15/datasets/travel-destination/reports/data-summary.md>
 
@@ -20,24 +15,36 @@ Look at data summary report, hightlight the key points, re-phrase the story base
 
 ---
 
-## Make highlight More Interesting
+## Design graphs
 
 將重點及其依據的json交給AI, 請AI設定可以強調這些重點的圖表。
 
 
-## Key elements
+### Key elements
 
 :exclamation: 圖形要能self-explain，所以**一定要**有以下的良好標記：
   - title: 標題清楚說明故事主題  
   - subtitle: 度量的定義  
   - caption: 數據來源
 
-## Output
+> 在codebook加上數據來源，這樣AI的每張圖都可以自動生成caption。
+
+### Output
 
 :exclamation: 圖形要考慮輸出的環境。
 
-請設計可以強調這些重點的圖表，並且可以讓我們進一步了解這些趨勢背後的原因。圖形輸出必須適合A4紙強印刷，且標題字體大小要為12pt，內文字體大小要為10pt。圖表的顏色必須是黑白的，並且要有清晰的標題和標籤。
+圖形輸出必須適合A4紙張印刷，且標題字體大小要為12pt，內文字體大小要為10pt，其寛長比例要維持4:3。
 
+---
+
+### Prompt context
+
+每一張圖都必需要有適當的title, subtitle, caption，規定如下：
+  - title: 標題清楚說明故事主題  
+  - subtitle: 度量的定義  
+  - caption: 數據來源
+
+圖形輸出圖形輸出必須適合A4紙張印刷，且標題字體大小要為12pt，內文字體大小要為10pt，其寛長比例要維持4:3。
 
 ## Next... 
 
