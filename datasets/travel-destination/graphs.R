@@ -1,4 +1,6 @@
-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library(jsonlite)
+# based on "https://chatgpt.com/share/680713cd-8600-8006-acdd-58652da5b902"
+
+library(jsonlite)
 library(tibble)
 library(dplyr)
 library(ggplot2)
