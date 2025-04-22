@@ -27,13 +27,15 @@ Choose the highlight points from the data summary report.
   - subtitle: 度量的定義  
   - caption: 數據來源
 
+座標軸不使用變數名稱，而是中文易讀的名稱。
+
 > 在codebook加上數據來源，這樣AI的每張圖都可以自動生成caption。
 
 ### Output
 
 :exclamation: 圖形要考慮輸出的環境。
 
-圖形輸出必須適合A4紙張印刷，且標題字體大小要為12pt，內文字體大小要為10pt，其寛長比例要維持4:3。
+圖形輸出必須適合A4紙張印刷，且標題字體大小要為12pt，內文字體大小要為10pt，其寛高比例要維持4:3。
 
 ---
 
