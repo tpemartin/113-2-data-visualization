@@ -1,3 +1,5 @@
+library(tidyverse)
+library(googlesheets4)
 reshaped_travel_data <- read_sheet("https://docs.google.com/spreadsheets/d/1tbwc7zuVcg3V72DzjFU8F19E7nZ_dsfjYP1ICiqcRcY/edit?gid=2027436314#gid=2027436314",
                                    sheet = "reshaped_travel_data")
 
@@ -68,7 +70,7 @@ write_json(
     operations = "summarise(across()), class(), mean(), median(), sd(), min(), max(), table(), is.na(), n_distinct()",
     summary = tidy_variable_summary
   ),
-  path = "variable-summary.json",
+  path = "single-variable-summary.json",
   pretty = TRUE,
   auto_unbox = TRUE
 )

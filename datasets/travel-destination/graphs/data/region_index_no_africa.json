@@ -1,0 +1,410 @@
+[
+  {
+    "year": 2008,
+    "region": "亞洲地區",
+    "total_travelers": 6973043,
+    "index": 100
+  },
+  {
+    "year": 2008,
+    "region": "大洋洲地區",
+    "total_travelers": 93221,
+    "index": 100
+  },
+  {
+    "year": 2008,
+    "region": "歐洲地區",
+    "total_travelers": 225023,
+    "index": 100
+  },
+  {
+    "year": 2008,
+    "region": "美洲地區",
+    "total_travelers": 580983,
+    "index": 100
+  },
+  {
+    "year": 2009,
+    "region": "亞洲地區",
+    "total_travelers": 7179431,
+    "index": 102.96
+  },
+  {
+    "year": 2009,
+    "region": "大洋洲地區",
+    "total_travelers": 103115,
+    "index": 110.61
+  },
+  {
+    "year": 2009,
+    "region": "歐洲地區",
+    "total_travelers": 236782,
+    "index": 105.23
+  },
+  {
+    "year": 2009,
+    "region": "美洲地區",
+    "total_travelers": 477468,
+    "index": 82.18
+  },
+  {
+    "year": 2010,
+    "region": "亞洲地區",
+    "total_travelers": 8642677,
+    "index": 123.94
+  },
+  {
+    "year": 2010,
+    "region": "大洋洲地區",
+    "total_travelers": 95845,
+    "index": 102.81
+  },
+  {
+    "year": 2010,
+    "region": "歐洲地區",
+    "total_travelers": 172405,
+    "index": 76.62
+  },
+  {
+    "year": 2010,
+    "region": "美洲地區",
+    "total_travelers": 499518,
+    "index": 85.98
+  },
+  {
+    "year": 2011,
+    "region": "亞洲地區",
+    "total_travelers": 8762214,
+    "index": 125.66
+  },
+  {
+    "year": 2011,
+    "region": "大洋洲地區",
+    "total_travelers": 101614,
+    "index": 109
+  },
+  {
+    "year": 2011,
+    "region": "歐洲地區",
+    "total_travelers": 239062,
+    "index": 106.24
+  },
+  {
+    "year": 2011,
+    "region": "美洲地區",
+    "total_travelers": 473259,
+    "index": 81.46
+  },
+  {
+    "year": 2012,
+    "region": "亞洲地區",
+    "total_travelers": 9367597,
+    "index": 134.34
+  },
+  {
+    "year": 2012,
+    "region": "大洋洲地區",
+    "total_travelers": 89166,
+    "index": 95.65
+  },
+  {
+    "year": 2012,
+    "region": "歐洲地區",
+    "total_travelers": 240760,
+    "index": 106.99
+  },
+  {
+    "year": 2012,
+    "region": "美洲地區",
+    "total_travelers": 537014,
+    "index": 92.43
+  },
+  {
+    "year": 2013,
+    "region": "亞洲地區",
+    "total_travelers": 10388937,
+    "index": 148.99
+  },
+  {
+    "year": 2013,
+    "region": "大洋洲地區",
+    "total_travelers": 97120,
+    "index": 104.18
+  },
+  {
+    "year": 2013,
+    "region": "歐洲地區",
+    "total_travelers": 119800,
+    "index": 53.24
+  },
+  {
+    "year": 2013,
+    "region": "美洲地區",
+    "total_travelers": 446595,
+    "index": 76.87
+  },
+  {
+    "year": 2014,
+    "region": "亞洲地區",
+    "total_travelers": 11095664,
+    "index": 159.12
+  },
+  {
+    "year": 2014,
+    "region": "大洋洲地區",
+    "total_travelers": 116342,
+    "index": 124.8
+  },
+  {
+    "year": 2014,
+    "region": "歐洲地區",
+    "total_travelers": 133677,
+    "index": 59.41
+  },
+  {
+    "year": 2014,
+    "region": "美洲地區",
+    "total_travelers": 495479,
+    "index": 85.28
+  },
+  {
+    "year": 2015,
+    "region": "亞洲地區",
+    "total_travelers": 12353288,
+    "index": 177.16
+  },
+  {
+    "year": 2015,
+    "region": "大洋洲地區",
+    "total_travelers": 118390,
+    "index": 127
+  },
+  {
+    "year": 2015,
+    "region": "歐洲地區",
+    "total_travelers": 161529,
+    "index": 71.78
+  },
+  {
+    "year": 2015,
+    "region": "美洲地區",
+    "total_travelers": 548267,
+    "index": 94.37
+  },
+  {
+    "year": 2016,
+    "region": "亞洲地區",
+    "total_travelers": 13539067,
+    "index": 194.16
+  },
+  {
+    "year": 2016,
+    "region": "大洋洲地區",
+    "total_travelers": 157726,
+    "index": 169.2
+  },
+  {
+    "year": 2016,
+    "region": "歐洲地區",
+    "total_travelers": 258087,
+    "index": 114.69
+  },
+  {
+    "year": 2016,
+    "region": "美洲地區",
+    "total_travelers": 623191,
+    "index": 107.26
+  },
+  {
+    "year": 2017,
+    "region": "亞洲地區",
+    "total_travelers": 14253762,
+    "index": 204.41
+  },
+  {
+    "year": 2017,
+    "region": "大洋洲地區",
+    "total_travelers": 184317,
+    "index": 197.72
+  },
+  {
+    "year": 2017,
+    "region": "歐洲地區",
+    "total_travelers": 496529,
+    "index": 220.66
+  },
+  {
+    "year": 2017,
+    "region": "美洲地區",
+    "total_travelers": 697361,
+    "index": 120.03
+  },
+  {
+    "year": 2018,
+    "region": "亞洲地區",
+    "total_travelers": 15152547,
+    "index": 217.3
+  },
+  {
+    "year": 2018,
+    "region": "大洋洲地區",
+    "total_travelers": 224274,
+    "index": 240.58
+  },
+  {
+    "year": 2018,
+    "region": "歐洲地區",
+    "total_travelers": 537777,
+    "index": 238.99
+  },
+  {
+    "year": 2018,
+    "region": "美洲地區",
+    "total_travelers": 710039,
+    "index": 122.21
+  },
+  {
+    "year": 2019,
+    "region": "亞洲地區",
+    "total_travelers": 15757473,
+    "index": 225.98
+  },
+  {
+    "year": 2019,
+    "region": "大洋洲地區",
+    "total_travelers": 228135,
+    "index": 244.72
+  },
+  {
+    "year": 2019,
+    "region": "歐洲地區",
+    "total_travelers": 363583,
+    "index": 161.58
+  },
+  {
+    "year": 2019,
+    "region": "美洲地區",
+    "total_travelers": 676520,
+    "index": 116.44
+  },
+  {
+    "year": 2020,
+    "region": "亞洲地區",
+    "total_travelers": 2038522,
+    "index": 29.23
+  },
+  {
+    "year": 2020,
+    "region": "大洋洲地區",
+    "total_travelers": 52488,
+    "index": 56.3
+  },
+  {
+    "year": 2020,
+    "region": "歐洲地區",
+    "total_travelers": 59773,
+    "index": 26.56
+  },
+  {
+    "year": 2020,
+    "region": "美洲地區",
+    "total_travelers": 175736,
+    "index": 30.25
+  },
+  {
+    "year": 2021,
+    "region": "亞洲地區",
+    "total_travelers": 232736,
+    "index": 3.34
+  },
+  {
+    "year": 2021,
+    "region": "大洋洲地區",
+    "total_travelers": 4833,
+    "index": 5.18
+  },
+  {
+    "year": 2021,
+    "region": "歐洲地區",
+    "total_travelers": 7139,
+    "index": 3.17
+  },
+  {
+    "year": 2021,
+    "region": "美洲地區",
+    "total_travelers": 114339,
+    "index": 19.68
+  },
+  {
+    "year": 2022,
+    "region": "亞洲地區",
+    "total_travelers": 1137862,
+    "index": 16.32
+  },
+  {
+    "year": 2022,
+    "region": "大洋洲地區",
+    "total_travelers": 35582,
+    "index": 38.17
+  },
+  {
+    "year": 2022,
+    "region": "歐洲地區",
+    "total_travelers": 57536,
+    "index": 25.57
+  },
+  {
+    "year": 2022,
+    "region": "美洲地區",
+    "total_travelers": 250502,
+    "index": 43.12
+  },
+  {
+    "year": 2023,
+    "region": "亞洲地區",
+    "total_travelers": 10752314,
+    "index": 154.2
+  },
+  {
+    "year": 2023,
+    "region": "大洋洲地區",
+    "total_travelers": 169510,
+    "index": 181.84
+  },
+  {
+    "year": 2023,
+    "region": "歐洲地區",
+    "total_travelers": 311041,
+    "index": 138.23
+  },
+  {
+    "year": 2023,
+    "region": "美洲地區",
+    "total_travelers": 543463,
+    "index": 93.54
+  },
+  {
+    "year": 2024,
+    "region": "亞洲地區",
+    "total_travelers": 15685999,
+    "index": 224.95
+  },
+  {
+    "year": 2024,
+    "region": "大洋洲地區",
+    "total_travelers": 193191,
+    "index": 207.24
+  },
+  {
+    "year": 2024,
+    "region": "歐洲地區",
+    "total_travelers": 352172,
+    "index": 156.5
+  },
+  {
+    "year": 2024,
+    "region": "美洲地區",
+    "total_travelers": 612413,
+    "index": 105.41
+  }
+]

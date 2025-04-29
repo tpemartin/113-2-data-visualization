@@ -50,7 +50,7 @@ flowchart TB
 
   - ChatGPT: <https://chatgpt.com/share/67fdc1bd-c254-8006-a36f-8e31a1e660c8>
 
-File structure under [`datasets/travel-destination/`](../datasets/travel-destination/):
+File structure under [`datasets/travel-destination/`]([../datasets/travel-destination/](https://github.com/tpemartin/113-2-data-visualization/tree/3321cd77067c3570f769596a0f816cce0998737c/datasets/travel-destination)):
 
 ```
 datasets/travel-destination/

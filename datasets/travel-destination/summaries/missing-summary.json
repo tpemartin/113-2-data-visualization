@@ -19,8 +19,8 @@
     },
     {
       "variable": "Number_of_Travelers",
-      "na_count": 165,
-      "na_proportion": 0.211
+      "na_count": 0,
+      "na_proportion": 0
     }
   ]
 }

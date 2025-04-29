@@ -81,7 +81,7 @@ index_data <- yearly_data |>
   dplyr::left_join(base_2008, by = "region") |>
   dplyr::mutate(index = total_travelers / base_value * 100)
 
-# 繪圖：以指數表達相對變化
+# 繪圖：以指數表達相對變化 ----
 plot_region_index <- ggplot(index_data, aes(x = year, y = index, color = region)) +
   geom_line(size = 1.2) +
   geom_point(size = 2) +
