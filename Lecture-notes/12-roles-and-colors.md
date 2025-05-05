@@ -93,7 +93,7 @@ We want to design a better plot based on `region_index_no_africa.json` file. To 
 
 Code snippet:
 
-<https://github.com/tpemartin/113-2-data-visualization/blob/main/datasets/travel-destination/graphs/data/region_index_no_africa/plot-design.R#L152-L187>
+<https://github.com/tpemartin/113-2-data-visualization/blob/e0c794995cf7e18ef2076ddfa966b36d0ed58cd8/datasets/travel-destination/graphs/data/region_index_no_africa/plot-design.R#L152-L187>
 
 Prompt:
 > 以下是ggplot程式，請一次只解釋一層，我沒問題才再繼續。
