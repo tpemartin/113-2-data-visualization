@@ -102,4 +102,4 @@ Prompt:
 
 ## Looker Studio
 
- - [Appendix: Looker Studio Layer Order and Colors](Lecture-notes/Appendix-looker-studio-layer-order.md)
+ - [Appendix: Looker Studio Layer Order and Colors](Appendix-looker-studio-layer-order.md)
