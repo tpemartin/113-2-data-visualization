@@ -99,3 +99,7 @@ Prompt:
 > 以下是ggplot程式，請一次只解釋一層，我沒問題才再繼續。
 > 
 <https://chatgpt.com/share/68184e95-8158-8006-ab4c-0475a8109c79>
+
+## Looker Studio
+
+ - [Appendix: Looker Studio Layer Order and Colors](Lecture-notes/Appendix-looker-studio-layer-order.md)
