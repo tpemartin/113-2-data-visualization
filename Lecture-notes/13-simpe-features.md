@@ -1,5 +1,8 @@
 # 📘 教學講義：Simple Feature 與自動產生 Codebook（JSON）
 
+<img src="../img/choropleth-marriage-age.png" width="500">
+
+
 ## 🧭 1. Simple Feature 是什麼？
 
 `Simple Feature`（簡稱 `sf`）是地理空間資料在 R 語言中常用的資料框類型。每一筆資料可以包含一個幾何圖形（如點、線、多邊形），並與其他屬性資料（欄位）整合成一個資料框。
