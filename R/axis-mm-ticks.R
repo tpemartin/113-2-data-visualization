@@ -6,12 +6,12 @@ p <- ggplot(mpg, aes(displ, hwy)) +
   scale_x_continuous(
     breaks = seq(2, 7, by = 1),                     # major ticks
     minor_breaks = seq(2, 7, by = 0.2),              # minor ticks
-    guide=guide_axis(minor.ticks = TRUE)
+    guide=guide_axis(minor.ticks = TRUE) # turn on minor ticks
   ) +
   scale_y_continuous(
     breaks = seq(10, 45, by = 5), 
     minor_breaks = seq(10, 45, by = 1),
-    guide=guide_axis(minor.ticks = TRUE)
+    guide=guide_axis(minor.ticks = TRUE) # turn on minor ticks
   ) +
   labs(title = "Major and Minor Ticks Demo")
 
