@@ -5,8 +5,8 @@ The `theme()` function in `ggplot2` customizes the non-data components of a plot
 ---
 
 ## 1. 🌐 Global Theme Settings
-- `complete`: Replace existing theme elements.
-- `validate`: Check for valid theme elements.
+- [complete themes](https://ggplot2.tidyverse.org/reference/ggtheme.html): Replace existing theme elements.
+- [customize your theme](https://ggplot2.tidyverse.org/reference/theme.html)
 
 ---
 
